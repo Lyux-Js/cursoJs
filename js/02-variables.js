@@ -9,9 +9,9 @@ Modo estricto ("use strict"): habilita funciones nuevas y por otra parte, evita 
 var pais = "Venezuela";
 var continente = "Latino America";
 var antiguedad = 2021
-var paisContinente = pais + " " + continente
+var paisContinente = pais + " " + continente;
 
 pais = "España";
 continente = "Europa";
-console.log(pais, continente, antiguedad)
-alert(paisContinente)
+console.log(pais, continente, antiguedad);
+alert(paisContinente);
