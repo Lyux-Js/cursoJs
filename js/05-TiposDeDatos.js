@@ -21,6 +21,7 @@ Boolean:
 El tipo de dato True es igual a 1.
 El tipo de dato False es igual a 0.
 
+
 String o texto.
 number o numero entero.
 floar o numero decimal.
