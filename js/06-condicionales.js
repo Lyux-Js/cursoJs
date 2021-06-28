@@ -29,3 +29,28 @@ if (edad >= 18) {
 } else {
     console.log("El usuario: " + nombre + " es menor de edad tiene: " + edad + " Años");
 }
+
+/* Operadores logicos
+AND (Y): &&
+OR (O): || 
+NEGACION: !
+*/
+
+var year = 2021;
+
+// negacion
+if (year != 2021) {
+    console.log("El año es diferente de 2021 el año actual es: " + year);
+}
+// AND y Diferente o negacion
+if (year >= 2021 && year >= 2000 && year != 2030) {
+    console.log("Estamos en el siglo 21");
+} else {
+    console.log("estamos en una era diferente");
+}
+
+// or
+if (year == 2021 || (year >= 2020 && year == 2021)) {
+    console.log("El año caba en 1")
+
+}
